@@ -2,7 +2,7 @@ import "./App.css";
 import cn from "classnames";
 import LineChart from "./components/LineChart";
 import BarChart from "./components/BarChart";
-import RadialChart from "./components/RadialChart";
+import PieChart from "./components/PieChart";
 
 const cardStyles =
   "h-full rounded-md p-2 border border-slate-300 border-solid shadow-md shadow-slate-500 bg-slate-100";
@@ -28,7 +28,7 @@ function App() {
             cardStyles
           )}
         >
-          <RadialChart />
+          <PieChart />
         </div>
       </div>
     </div>
