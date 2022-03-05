@@ -1,8 +1,8 @@
 import "./App.css";
 import cn from "classnames";
-import LineChart from "./LineChart";
-import BarChart from "./BarChart";
-import RadialChart from "./RadialChart";
+import LineChart from "./components/LineChart";
+import BarChart from "./components/BarChart";
+import RadialChart from "./components/RadialChart";
 
 const cardStyles =
   "h-full rounded-md p-2 border border-slate-300 border-solid shadow-md shadow-slate-500 bg-slate-100";
