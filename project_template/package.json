@@ -13,7 +13,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "db:setup": "cp db.initial.json db.json",
+    "server:start": "json-server --watch db.json",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
