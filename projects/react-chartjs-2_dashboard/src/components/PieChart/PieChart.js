@@ -1,11 +1,21 @@
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie, getElementAtEvent } from "react-chartjs-2";
 import { useEffect, useRef, useState } from 'react'
-import { uniq } from 'lodash'
+import { uniq, range } from 'lodash'
 
 import client from '../../axios'
 
 ChartJS.register(ArcElement, Tooltip, Legend);
+
+const getRandomColor = () => {
+  const r = Math.floor(Math.random() * 255);
+  const g = Math.floor(Math.random() * 255);
+  const b = Math.floor(Math.random() * 255);
+
+  return "rgba(" + r + "," + g + "," + b + ", 0.5)";
+};
+
+const getChartColors = (totalNumber) => range(totalNumber).map(() => getRandomColor())
 
 export const data = {
   labels: [],
@@ -13,22 +23,7 @@ export const data = {
     {
       label: "# of Votes",
       data: [],
-      backgroundColor: [
-        "rgba(255, 99, 132, 0.2)",
-        "rgba(54, 162, 235, 0.2)",
-        "rgba(255, 206, 86, 0.2)",
-        "rgba(75, 192, 192, 0.2)",
-        "rgba(153, 102, 255, 0.2)",
-        "rgba(255, 159, 64, 0.2)"
-      ],
-      borderColor: [
-        "rgba(255, 99, 132, 1)",
-        "rgba(54, 162, 235, 1)",
-        "rgba(255, 206, 86, 1)",
-        "rgba(75, 192, 192, 1)",
-        "rgba(153, 102, 255, 1)",
-        "rgba(255, 159, 64, 1)"
-      ],
+      backgroundColor: [],
       borderWidth: 1
     }
   ]
@@ -52,9 +47,20 @@ function PieChart() {
       const countries = uniq(apiData.map((data) => data.country))
       const countryData = countries.map((country) => apiData.filter((data) => data.country === country).length)
 
-      setchartData({ ...data, labels: countries, datasets: [{ ...data.datasets[0], data: countryData }] })
+      setchartData({
+        ...data,
+        labels: countries,
+        datasets: [{ ...data.datasets[0], data: countryData, backgroundColor: getChartColors(countries.length) }]
+      })
     }
   }, [apiData])
+
+  useEffect(() => {
+    if (selectedCountry !== null) {
+      const regionsData = apiData.filter((data) => data.country === selectedCountry)
+      console.log(regionsData);
+    }
+  }, [selectedCountry])
 
   if (apiData === null) {
     return <div>Loading...</div>
@@ -63,9 +69,11 @@ function PieChart() {
   return (
       <div style={{ padding: '24px' }}>
         <div>
-          <button className="btn btn-blue" onClick={() => setSelectedCountry(null)} disabled={selectedCountry === null}>
-            Show countries
-          </button>
+          {selectedCountry !== null && (
+              <button className="btn btn-blue" onClick={() => setSelectedCountry(null)}>
+                Show countries
+              </button>
+          )}
         </div>
         <div>
           <Pie
