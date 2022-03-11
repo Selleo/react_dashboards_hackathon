@@ -42,6 +42,7 @@ const transformDataSecond = (products, data) => {
 }
 
 function BarChart() {
+  const [tab, setTab] = useState('first')
   const [products, setProducts] = useState([])
   const [dataFirst, setDataFirst] = useState([])
   const [dataSecond, setDataSecond] = useState([])
@@ -97,51 +98,89 @@ function BarChart() {
 
   return (
     <>
-      <h1 className="text-3xl">Total sale of products</h1>
+      <div className="flex flex-auto justify-center">
+        <button
+          className="border p-2 m-2 bg-slate-700 text-slate-100"
+          onClick={() => setTab('first')}
+          disabled={tab === 'first'}
+        >
+          Total sales
+        </button>
 
-      <div className="w-full h-96 mb-14">
-        <ResponsiveBar
-          data={dataFirst}
-          keys={['price']}
-          indexBy="productType"
-          margin={{ top: 10, right: 0, bottom: 30, left: 50 }}
-          colorBy="priceColor"
-          tooltip={
-            ({ value }) => (
-              <div className="p-2 bg-white">
-                <p><strong>Total sale:</strong> {value}</p>
-              </div>
-            )
-          }
-        />
+        <button
+          className="border p-2 m-2 bg-slate-700 text-slate-100"
+          onClick={() => setTab('second')}
+          disabled={tab === 'second'}
+        >
+          Stacked
+        </button>
+
+        <button
+          className="border p-2 m-2 bg-slate-700 text-slate-100"
+          onClick={() => setTab('third')}
+          disabled={tab === 'third'}
+        >
+          Grouped
+        </button>
       </div>
 
-      <h1 className="text-3xl">Sales of products per company</h1>
+      {tab === 'first' && (
+        <>
+          <h1 className="text-3xl">Total sale of products</h1>
 
-      <div className="w-full h-96 mb-14">
-        <ResponsiveBar
-          data={dataSecond}
-          keys={['LG', 'Samsung', 'Sharp', 'Toshiba', 'Mastercook']}
-          indexBy="productType"
-          margin={margin}
-          tooltip={tooltip}
-          legends={legends}
-        />
-      </div>
+          <div className="w-full h-96 mb-14">
+            <ResponsiveBar
+              data={dataFirst}
+              keys={['price']}
+              indexBy="productType"
+              margin={{ top: 10, right: 0, bottom: 30, left: 50 }}
+              colorBy="priceColor"
+              tooltip={
+                ({ value }) => (
+                  <div className="p-2 bg-white">
+                    <p><strong>Total sale:</strong> {value}</p>
+                  </div>
+                )
+              }
+            />
+          </div>
+        </>
+      )}
 
-      <h1 className="text-3xl">Sales of products per company</h1>
+      {tab === 'second' && (
+        <>
+          <h1 className="text-3xl">Sales of products per company</h1>
 
-      <div className="w-full h-96">
-        <ResponsiveBar
-          data={dataSecond}
-          keys={['LG', 'Samsung', 'Sharp', 'Toshiba', 'Mastercook']}
-          indexBy="productType"
-          groupMode="grouped"
-          margin={margin}
-          tooltip={tooltip}
-          legends={legends}
-        />
-      </div>
+          <div className="w-full h-96 mb-14">
+            <ResponsiveBar
+              data={dataSecond}
+              keys={['LG', 'Samsung', 'Sharp', 'Toshiba', 'Mastercook']}
+              indexBy="productType"
+              margin={margin}
+              tooltip={tooltip}
+              legends={legends}
+            />
+          </div>
+        </>
+      )}
+
+      {tab === 'third' && (
+        <>
+          <h1 className="text-3xl">Sales of products per company</h1>
+
+          <div className="w-full h-96">
+            <ResponsiveBar
+              data={dataSecond}
+              keys={['LG', 'Samsung', 'Sharp', 'Toshiba', 'Mastercook']}
+              indexBy="productType"
+              groupMode="grouped"
+              margin={margin}
+              tooltip={tooltip}
+              legends={legends}
+            />
+          </div>
+        </>
+      )}
     </>
   )
 }
