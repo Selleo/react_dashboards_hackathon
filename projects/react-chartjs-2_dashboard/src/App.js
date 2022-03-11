@@ -9,7 +9,7 @@ const cardStyles =
 
 function App() {
   return (
-    <div className="bg-slate-200 h-screen">
+    <div className="bg-slate-200 h-100">
       <div className="container mx-auto py-6 grid grid-cols-12 gap-6 h-full">
         <div className={cn("col-span-full", cardStyles)}>
           <LineChart />
