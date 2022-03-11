@@ -32,7 +32,7 @@ export const data = {
 function PieChart() {
   const chartRef = useRef(null);
   const [apiData, setApiData] = useState(null)
-  const [chartData, setchartData] = useState(data)
+  const [chartData, setChartData] = useState(data)
   const [regionChartData, setRegionChartData] = useState(data)
 
   const [selectedCountry, setSelectedCountry] = useState(null)
@@ -48,7 +48,7 @@ function PieChart() {
       const countries = uniq(apiData.map((data) => data.country))
       const countryData = countries.map((country) => apiData.filter((data) => data.country === country).length)
 
-      setchartData({
+      setChartData({
         ...data,
         labels: countries,
         datasets: [{ ...data.datasets[0], data: countryData, backgroundColor: getChartColors(countries.length) }]
