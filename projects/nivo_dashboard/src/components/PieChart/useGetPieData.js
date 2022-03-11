@@ -14,18 +14,19 @@ export default function useGetPieData({ selectedCountry }) {
     }
     if (!selectedCountry) {
       return rawData.reduce((acc, item) => {
-        let accItem = acc.find(({ id }) => id === item.country);
+        let accItem = acc.find(({ country }) => country === item.country);
         if (accItem) {
           accItem.valueInDollars += item.valueInDollars;
         } else {
-          acc.push({ id: item.country, valueInDollars: item.valueInDollars });
+          const { region, ...itemWithoutRegion } = item;
+          acc.push(itemWithoutRegion);
         }
 
         return acc;
       }, []);
     }
 
-    return [];
+    return rawData.filter(({ country }) => country === selectedCountry);
   }, [selectedCountry, rawData]);
 
   return { data };

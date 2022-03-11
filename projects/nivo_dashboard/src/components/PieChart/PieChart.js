@@ -12,21 +12,33 @@ function PieChart({ containerRef }) {
   if (!data || !containerSize) {
     return "Loading...";
   }
-
   return (
     <>
-      <h3 className="text-lg">Sales in {selectedCountry || 'countries'}</h3>
+      <h3 className="text-lg">
+        Sales in {selectedCountry || "countries"}
+        {selectedCountry && (
+          <button
+            className="rounded-full px-2 ml-2 bg-lime-400"
+            onClick={() => setSelectedCountry(null)}
+          >
+            Go back to countries
+          </button>
+        )}
+      </h3>
       <ResponsivePie
-        data={Object.values(data)}
+        data={data}
         value="valueInDollars"
+        id={selectedCountry ? "region" : "country"}
         width={containerSize.width}
         height={containerSize.height}
         padAngle={2}
         valueFormat=" >-$"
+        motionConfig="slow"
+        onClick={({ data }) => !selectedCountry && setSelectedCountry(data.country)}
         margin={{
-          top: 10,
+          top: containerSize.height * 0.12,
           right: containerSize.width * 0.2,
-          bottom: 10,
+          bottom: containerSize.height * 0.12,
           left: containerSize.width * 0.2,
         }}
       />
