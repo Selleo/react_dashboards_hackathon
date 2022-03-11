@@ -12,7 +12,7 @@ export const data = {
   datasets: [
     {
       label: "# of Votes",
-      data: [12, 19, 3, 5, 2, 3],
+      data: [],
       backgroundColor: [
         "rgba(255, 99, 132, 0.2)",
         "rgba(54, 162, 235, 0.2)",
@@ -39,6 +39,8 @@ function PieChart() {
   const [apiData, setApiData] = useState(null)
   const [chartData, setchartData] = useState(data)
 
+  const [selectedCountry, setSelectedCountry] = useState(null)
+
   useEffect(() => {
     client.get('/salesByRegion').then((response) => {
       setApiData(response.data)
@@ -60,13 +62,24 @@ function PieChart() {
 
   return (
       <div style={{ padding: '24px' }}>
-        <Pie
-            ref={chartRef}
-            data={chartData}
-            onClick={(event) => {
-              const selectedElement = getElementAtEvent(chartRef.current, event);
-              console.log(selectedElement)
-            }} />
+        <div>
+          <button className="btn btn-blue" onClick={() => setSelectedCountry(null)} disabled={selectedCountry === null}>
+            Show countries
+          </button>
+        </div>
+        <div>
+          <Pie
+              ref={chartRef}
+              data={chartData}
+              onClick={(event) => {
+                const selectedElement = getElementAtEvent(chartRef.current, event);
+
+                if (selectedCountry === null) {
+                  setSelectedCountry(chartData.labels[selectedElement[0].index])
+                }
+              }}
+          />
+        </div>
       </div>
   )
 }
