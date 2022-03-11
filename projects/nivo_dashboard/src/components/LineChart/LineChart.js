@@ -93,16 +93,9 @@ function LineChart() {
 
   return (
     <>
-      <h1 className="text-3xl">
-        Sales in {getMonthName(selectedMonth)}
-      </h1>
+      <h3 className="text-lg">Sales in {getMonthName(selectedMonth)}</h3>
 
-      <div style={
-        {
-          height: '350px',
-          width: '100%'
-        }
-      }>
+      <div style={{ height: "200px", width: "100%" }}>
         <ResponsiveLineCanvas
           data={data[selectedMonth]}
           margin={{ top: 5, right: 30, bottom: 20, left: 80 }}
@@ -124,7 +117,7 @@ function LineChart() {
         />
       </div>
 
-      <div class="flex flex-auto justify-center">
+      <div className="flex flex-auto justify-center">
         <button
           className="border p-2 m-2 bg-slate-700 text-slate-100"
           onClick={handlePreviousMonth}

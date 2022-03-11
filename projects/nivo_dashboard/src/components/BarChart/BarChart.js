@@ -126,9 +126,9 @@ function BarChart() {
 
       {tab === 'first' && (
         <>
-          <h1 className="text-3xl">Total sale of products</h1>
+          <h3 className="text-lg">Total sale of products</h3>
 
-          <div className="w-full h-96 mb-14">
+          <div className="w-full h-[290px]">
             <ResponsiveBar
               data={dataFirst}
               keys={['price']}
@@ -149,9 +149,9 @@ function BarChart() {
 
       {tab === 'second' && (
         <>
-          <h1 className="text-3xl">Sales of products per company</h1>
+          <h3 className="text-lg">Sales of products per company</h3>
 
-          <div className="w-full h-96 mb-14">
+          <div className="w-full h-[290px]">
             <ResponsiveBar
               data={dataSecond}
               keys={['LG', 'Samsung', 'Sharp', 'Toshiba', 'Mastercook']}
@@ -166,9 +166,9 @@ function BarChart() {
 
       {tab === 'third' && (
         <>
-          <h1 className="text-3xl">Sales of products per company</h1>
+          <h3 className="text-lg">Sales of products per company</h3>
 
-          <div className="w-full h-96">
+          <div className="w-full h-[290px]">
             <ResponsiveBar
               data={dataSecond}
               keys={['LG', 'Samsung', 'Sharp', 'Toshiba', 'Mastercook']}

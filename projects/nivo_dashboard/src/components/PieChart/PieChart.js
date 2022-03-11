@@ -18,7 +18,7 @@ function PieChart({ containerRef }) {
         Sales in {selectedCountry || "countries"}
         {selectedCountry && (
           <button
-            className="rounded-full px-2 ml-2 bg-lime-400"
+            className="border p-2 m-2 bg-slate-700 text-slate-100"
             onClick={() => setSelectedCountry(null)}
           >
             Go back to countries
