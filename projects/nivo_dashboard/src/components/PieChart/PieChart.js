@@ -36,8 +36,16 @@ function PieChart({ containerRef }) {
         id={selectedCountry ? "region" : "country"}
         width={containerSize.width}
         height={containerSize.height}
-        padAngle={2}
+        innerRadius={selectedCountry ? 0.5 : 0}
+        colors={{ scheme: 'set3' }}
+        padAngle={selectedCountry ? 0 : 2}
+        arcLabel={(e) => '$'+Math.round(e.value/1000)+'k'}
+        arcLinkLabelsSkipAngle={1}
+        arcLabelsSkipAngle={7}
         valueFormat=" >-$"
+        activeOuterRadiusOffset={selectedCountry ? 0 : 10}
+        activeInnerRadiusOffset={selectedCountry ? 0 : 10}
+        transitionMode="middleAngle"
         motionConfig="slow"
         onClick={({ data }) =>
           !selectedCountry && setSelectedCountry(data.country)
