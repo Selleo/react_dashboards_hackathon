@@ -1,0 +1,1135 @@
+{
+  "salesByTime": [
+    { "id": 1, "valueInDollars": 263275, "date": "2021-01-01" },
+    { "id": 2, "valueInDollars": 44684, "date": "2021-01-02" },
+    { "id": 3, "valueInDollars": 498618, "date": "2021-01-03" },
+    { "id": 4, "valueInDollars": 218889, "date": "2021-01-04" },
+    { "id": 5, "valueInDollars": 215402, "date": "2021-01-05" },
+    { "id": 6, "valueInDollars": 107263, "date": "2021-01-06" },
+    { "id": 7, "valueInDollars": 160892, "date": "2021-01-07" },
+    { "id": 8, "valueInDollars": 287486, "date": "2021-01-08" },
+    { "id": 9, "valueInDollars": 30961, "date": "2021-01-09" },
+    { "id": 10, "valueInDollars": 496285, "date": "2021-01-10" },
+    { "id": 11, "valueInDollars": 167250, "date": "2021-01-11" },
+    { "id": 12, "valueInDollars": 267949, "date": "2021-01-12" },
+    { "id": 13, "valueInDollars": 233130, "date": "2021-01-13" },
+    { "id": 14, "valueInDollars": 451803, "date": "2021-01-14" },
+    { "id": 15, "valueInDollars": 489675, "date": "2021-01-15" },
+    { "id": 16, "valueInDollars": 434241, "date": "2021-01-16" },
+    { "id": 17, "valueInDollars": 473154, "date": "2021-01-17" },
+    { "id": 18, "valueInDollars": 454650, "date": "2021-01-18" },
+    { "id": 19, "valueInDollars": 151960, "date": "2021-01-19" },
+    { "id": 20, "valueInDollars": 211567, "date": "2021-01-20" },
+    { "id": 21, "valueInDollars": 111644, "date": "2021-01-21" },
+    { "id": 22, "valueInDollars": 481666, "date": "2021-01-22" },
+    { "id": 23, "valueInDollars": 96439, "date": "2021-01-23" },
+    { "id": 24, "valueInDollars": 221148, "date": "2021-01-24" },
+    { "id": 25, "valueInDollars": 414536, "date": "2021-01-25" },
+    { "id": 26, "valueInDollars": 430226, "date": "2021-01-26" },
+    { "id": 27, "valueInDollars": 110059, "date": "2021-01-27" },
+    { "id": 28, "valueInDollars": 348649, "date": "2021-01-28" },
+    { "id": 29, "valueInDollars": 113657, "date": "2021-01-29" },
+    { "id": 30, "valueInDollars": 322742, "date": "2021-01-30" },
+    { "id": 31, "valueInDollars": 311572, "date": "2021-01-31" },
+    { "id": 32, "valueInDollars": 447403, "date": "2021-02-01" },
+    { "id": 33, "valueInDollars": 256362, "date": "2021-02-02" },
+    { "id": 34, "valueInDollars": 471443, "date": "2021-02-03" },
+    { "id": 35, "valueInDollars": 275962, "date": "2021-02-04" },
+    { "id": 36, "valueInDollars": 442356, "date": "2021-02-05" },
+    { "id": 37, "valueInDollars": 262619, "date": "2021-02-06" },
+    { "id": 38, "valueInDollars": 299020, "date": "2021-02-07" },
+    { "id": 39, "valueInDollars": 115236, "date": "2021-02-08" },
+    { "id": 40, "valueInDollars": 400821, "date": "2021-02-09" },
+    { "id": 41, "valueInDollars": 257965, "date": "2021-02-10" },
+    { "id": 42, "valueInDollars": 195793, "date": "2021-02-11" },
+    { "id": 43, "valueInDollars": 469100, "date": "2021-02-12" },
+    { "id": 44, "valueInDollars": 277417, "date": "2021-02-13" },
+    { "id": 45, "valueInDollars": 356110, "date": "2021-02-14" },
+    { "id": 46, "valueInDollars": 171427, "date": "2021-02-15" },
+    { "id": 47, "valueInDollars": 31301, "date": "2021-02-16" },
+    { "id": 48, "valueInDollars": 228010, "date": "2021-02-17" },
+    { "id": 49, "valueInDollars": 310889, "date": "2021-02-18" },
+    { "id": 50, "valueInDollars": 15521, "date": "2021-02-19" },
+    { "id": 51, "valueInDollars": 419034, "date": "2021-02-20" },
+    { "id": 52, "valueInDollars": 390760, "date": "2021-02-21" },
+    { "id": 53, "valueInDollars": 304425, "date": "2021-02-22" },
+    { "id": 54, "valueInDollars": 236484, "date": "2021-02-23" },
+    { "id": 55, "valueInDollars": 284296, "date": "2021-02-24" },
+    { "id": 56, "valueInDollars": 216354, "date": "2021-02-25" },
+    { "id": 57, "valueInDollars": 294359, "date": "2021-02-26" },
+    { "id": 58, "valueInDollars": 196810, "date": "2021-02-27" },
+    { "id": 59, "valueInDollars": 179928, "date": "2021-02-28" },
+    { "id": 60, "valueInDollars": 491797, "date": "2021-03-01" },
+    { "id": 61, "valueInDollars": 29273, "date": "2021-03-02" },
+    { "id": 62, "valueInDollars": 160169, "date": "2021-03-03" },
+    { "id": 63, "valueInDollars": 351065, "date": "2021-03-04" },
+    { "id": 64, "valueInDollars": 342501, "date": "2021-03-05" },
+    { "id": 65, "valueInDollars": 446379, "date": "2021-03-06" },
+    { "id": 66, "valueInDollars": 263640, "date": "2021-03-07" },
+    { "id": 67, "valueInDollars": 20468, "date": "2021-03-08" },
+    { "id": 68, "valueInDollars": 45298, "date": "2021-03-09" },
+    { "id": 69, "valueInDollars": 425795, "date": "2021-03-10" },
+    { "id": 70, "valueInDollars": 262120, "date": "2021-03-11" },
+    { "id": 71, "valueInDollars": 239242, "date": "2021-03-12" },
+    { "id": 72, "valueInDollars": 359970, "date": "2021-03-13" },
+    { "id": 73, "valueInDollars": 125806, "date": "2021-03-14" },
+    { "id": 74, "valueInDollars": 140154, "date": "2021-03-15" },
+    { "id": 75, "valueInDollars": 451263, "date": "2021-03-16" },
+    { "id": 76, "valueInDollars": 448957, "date": "2021-03-17" },
+    { "id": 77, "valueInDollars": 209892, "date": "2021-03-18" },
+    { "id": 78, "valueInDollars": 101572, "date": "2021-03-19" },
+    { "id": 79, "valueInDollars": 143233, "date": "2021-03-20" },
+    { "id": 80, "valueInDollars": 422461, "date": "2021-03-21" },
+    { "id": 81, "valueInDollars": 52573, "date": "2021-03-22" },
+    { "id": 82, "valueInDollars": 488909, "date": "2021-03-23" },
+    { "id": 83, "valueInDollars": 285819, "date": "2021-03-24" },
+    { "id": 84, "valueInDollars": 383689, "date": "2021-03-25" },
+    { "id": 85, "valueInDollars": 22804, "date": "2021-03-26" },
+    { "id": 86, "valueInDollars": 317602, "date": "2021-03-27" },
+    { "id": 87, "valueInDollars": 301756, "date": "2021-03-28" },
+    { "id": 88, "valueInDollars": 340988, "date": "2021-03-29" },
+    { "id": 89, "valueInDollars": 384739, "date": "2021-03-30" },
+    { "id": 90, "valueInDollars": 480209, "date": "2021-03-31" },
+    { "id": 91, "valueInDollars": 390583, "date": "2021-04-01" },
+    { "id": 92, "valueInDollars": 486938, "date": "2021-04-02" },
+    { "id": 93, "valueInDollars": 440931, "date": "2021-04-03" },
+    { "id": 94, "valueInDollars": 483955, "date": "2021-04-04" },
+    { "id": 95, "valueInDollars": 322288, "date": "2021-04-05" },
+    { "id": 96, "valueInDollars": 478112, "date": "2021-04-06" },
+    { "id": 97, "valueInDollars": 221057, "date": "2021-04-07" },
+    { "id": 98, "valueInDollars": 252142, "date": "2021-04-08" },
+    { "id": 99, "valueInDollars": 93971, "date": "2021-04-09" },
+    { "id": 100, "valueInDollars": 406311, "date": "2021-04-10" },
+    { "id": 101, "valueInDollars": 307566, "date": "2021-04-11" },
+    { "id": 102, "valueInDollars": 18818, "date": "2021-04-12" },
+    { "id": 103, "valueInDollars": 264921, "date": "2021-04-13" },
+    { "id": 104, "valueInDollars": 203197, "date": "2021-04-14" },
+    { "id": 105, "valueInDollars": 487567, "date": "2021-04-15" },
+    { "id": 106, "valueInDollars": 32492, "date": "2021-04-16" },
+    { "id": 107, "valueInDollars": 462841, "date": "2021-04-17" },
+    { "id": 108, "valueInDollars": 258976, "date": "2021-04-18" },
+    { "id": 109, "valueInDollars": 463086, "date": "2021-04-19" },
+    { "id": 110, "valueInDollars": 288465, "date": "2021-04-20" },
+    { "id": 111, "valueInDollars": 418282, "date": "2021-04-21" },
+    { "id": 112, "valueInDollars": 24649, "date": "2021-04-22" },
+    { "id": 113, "valueInDollars": 103345, "date": "2021-04-23" },
+    { "id": 114, "valueInDollars": 370730, "date": "2021-04-24" },
+    { "id": 115, "valueInDollars": 56312, "date": "2021-04-25" },
+    { "id": 116, "valueInDollars": 196279, "date": "2021-04-26" },
+    { "id": 117, "valueInDollars": 167258, "date": "2021-04-27" },
+    { "id": 118, "valueInDollars": 363942, "date": "2021-04-28" },
+    { "id": 119, "valueInDollars": 273688, "date": "2021-04-29" },
+    { "id": 120, "valueInDollars": 45695, "date": "2021-04-30" },
+    { "id": 121, "valueInDollars": 498907, "date": "2021-05-01" },
+    { "id": 122, "valueInDollars": 99353, "date": "2021-05-02" },
+    { "id": 123, "valueInDollars": 224918, "date": "2021-05-03" },
+    { "id": 124, "valueInDollars": 83098, "date": "2021-05-04" },
+    { "id": 125, "valueInDollars": 436699, "date": "2021-05-05" },
+    { "id": 126, "valueInDollars": 317642, "date": "2021-05-06" },
+    { "id": 127, "valueInDollars": 317318, "date": "2021-05-07" },
+    { "id": 128, "valueInDollars": 429684, "date": "2021-05-08" },
+    { "id": 129, "valueInDollars": 402346, "date": "2021-05-09" },
+    { "id": 130, "valueInDollars": 162398, "date": "2021-05-10" },
+    { "id": 131, "valueInDollars": 166135, "date": "2021-05-11" },
+    { "id": 132, "valueInDollars": 174223, "date": "2021-05-12" },
+    { "id": 133, "valueInDollars": 242647, "date": "2021-05-13" },
+    { "id": 134, "valueInDollars": 72813, "date": "2021-05-14" },
+    { "id": 135, "valueInDollars": 295623, "date": "2021-05-15" },
+    { "id": 136, "valueInDollars": 280284, "date": "2021-05-16" },
+    { "id": 137, "valueInDollars": 496294, "date": "2021-05-17" },
+    { "id": 138, "valueInDollars": 101451, "date": "2021-05-18" },
+    { "id": 139, "valueInDollars": 406307, "date": "2021-05-19" },
+    { "id": 140, "valueInDollars": 35190, "date": "2021-05-20" },
+    { "id": 141, "valueInDollars": 321617, "date": "2021-05-21" },
+    { "id": 142, "valueInDollars": 308905, "date": "2021-05-22" },
+    { "id": 143, "valueInDollars": 83466, "date": "2021-05-23" },
+    { "id": 144, "valueInDollars": 93875, "date": "2021-05-24" },
+    { "id": 145, "valueInDollars": 3264, "date": "2021-05-25" },
+    { "id": 146, "valueInDollars": 419122, "date": "2021-05-26" },
+    { "id": 147, "valueInDollars": 485246, "date": "2021-05-27" },
+    { "id": 148, "valueInDollars": 459232, "date": "2021-05-28" },
+    { "id": 149, "valueInDollars": 279239, "date": "2021-05-29" },
+    { "id": 150, "valueInDollars": 360798, "date": "2021-05-30" },
+    { "id": 151, "valueInDollars": 108870, "date": "2021-05-31" },
+    { "id": 152, "valueInDollars": 15827, "date": "2021-06-01" },
+    { "id": 153, "valueInDollars": 313915, "date": "2021-06-02" },
+    { "id": 154, "valueInDollars": 192323, "date": "2021-06-03" },
+    { "id": 155, "valueInDollars": 400949, "date": "2021-06-04" },
+    { "id": 156, "valueInDollars": 259036, "date": "2021-06-05" },
+    { "id": 157, "valueInDollars": 106435, "date": "2021-06-06" },
+    { "id": 158, "valueInDollars": 4133, "date": "2021-06-07" },
+    { "id": 159, "valueInDollars": 266904, "date": "2021-06-08" },
+    { "id": 160, "valueInDollars": 148562, "date": "2021-06-09" },
+    { "id": 161, "valueInDollars": 287758, "date": "2021-06-10" },
+    { "id": 162, "valueInDollars": 129908, "date": "2021-06-11" },
+    { "id": 163, "valueInDollars": 208245, "date": "2021-06-12" },
+    { "id": 164, "valueInDollars": 388204, "date": "2021-06-13" },
+    { "id": 165, "valueInDollars": 173161, "date": "2021-06-14" },
+    { "id": 166, "valueInDollars": 494532, "date": "2021-06-15" },
+    { "id": 167, "valueInDollars": 393483, "date": "2021-06-16" },
+    { "id": 168, "valueInDollars": 491225, "date": "2021-06-17" },
+    { "id": 169, "valueInDollars": 343162, "date": "2021-06-18" },
+    { "id": 170, "valueInDollars": 11996, "date": "2021-06-19" },
+    { "id": 171, "valueInDollars": 152358, "date": "2021-06-20" },
+    { "id": 172, "valueInDollars": 51715, "date": "2021-06-21" },
+    { "id": 173, "valueInDollars": 376997, "date": "2021-06-22" },
+    { "id": 174, "valueInDollars": 394322, "date": "2021-06-23" },
+    { "id": 175, "valueInDollars": 40626, "date": "2021-06-24" },
+    { "id": 176, "valueInDollars": 8726, "date": "2021-06-25" },
+    { "id": 177, "valueInDollars": 344721, "date": "2021-06-26" },
+    { "id": 178, "valueInDollars": 229451, "date": "2021-06-27" },
+    { "id": 179, "valueInDollars": 340852, "date": "2021-06-28" },
+    { "id": 180, "valueInDollars": 104197, "date": "2021-06-29" },
+    { "id": 181, "valueInDollars": 70538, "date": "2021-06-30" },
+    { "id": 182, "valueInDollars": 75456, "date": "2021-07-01" },
+    { "id": 183, "valueInDollars": 246154, "date": "2021-07-02" },
+    { "id": 184, "valueInDollars": 292531, "date": "2021-07-03" },
+    { "id": 185, "valueInDollars": 366331, "date": "2021-07-04" },
+    { "id": 186, "valueInDollars": 457541, "date": "2021-07-05" },
+    { "id": 187, "valueInDollars": 128767, "date": "2021-07-06" },
+    { "id": 188, "valueInDollars": 234661, "date": "2021-07-07" },
+    { "id": 189, "valueInDollars": 167316, "date": "2021-07-08" },
+    { "id": 190, "valueInDollars": 94161, "date": "2021-07-09" },
+    { "id": 191, "valueInDollars": 469462, "date": "2021-07-10" },
+    { "id": 192, "valueInDollars": 380887, "date": "2021-07-11" },
+    { "id": 193, "valueInDollars": 49962, "date": "2021-07-12" },
+    { "id": 194, "valueInDollars": 115289, "date": "2021-07-13" },
+    { "id": 195, "valueInDollars": 242564, "date": "2021-07-14" },
+    { "id": 196, "valueInDollars": 225654, "date": "2021-07-15" },
+    { "id": 197, "valueInDollars": 116258, "date": "2021-07-16" },
+    { "id": 198, "valueInDollars": 188589, "date": "2021-07-17" },
+    { "id": 199, "valueInDollars": 44172, "date": "2021-07-18" },
+    { "id": 200, "valueInDollars": 164487, "date": "2021-07-19" },
+    { "id": 201, "valueInDollars": 481351, "date": "2021-07-20" },
+    { "id": 202, "valueInDollars": 378997, "date": "2021-07-21" },
+    { "id": 203, "valueInDollars": 120059, "date": "2021-07-22" },
+    { "id": 204, "valueInDollars": 278780, "date": "2021-07-23" },
+    { "id": 205, "valueInDollars": 190688, "date": "2021-07-24" },
+    { "id": 206, "valueInDollars": 25054, "date": "2021-07-25" },
+    { "id": 207, "valueInDollars": 87045, "date": "2021-07-26" },
+    { "id": 208, "valueInDollars": 39025, "date": "2021-07-27" },
+    { "id": 209, "valueInDollars": 178013, "date": "2021-07-28" },
+    { "id": 210, "valueInDollars": 168660, "date": "2021-07-29" },
+    { "id": 211, "valueInDollars": 253564, "date": "2021-07-30" },
+    { "id": 212, "valueInDollars": 187092, "date": "2021-07-31" },
+    { "id": 213, "valueInDollars": 256646, "date": "2021-08-01" },
+    { "id": 214, "valueInDollars": 257411, "date": "2021-08-02" },
+    { "id": 215, "valueInDollars": 166345, "date": "2021-08-03" },
+    { "id": 216, "valueInDollars": 366102, "date": "2021-08-04" },
+    { "id": 217, "valueInDollars": 164926, "date": "2021-08-05" },
+    { "id": 218, "valueInDollars": 215726, "date": "2021-08-06" },
+    { "id": 219, "valueInDollars": 279983, "date": "2021-08-07" },
+    { "id": 220, "valueInDollars": 94024, "date": "2021-08-08" },
+    { "id": 221, "valueInDollars": 66821, "date": "2021-08-09" },
+    { "id": 222, "valueInDollars": 154823, "date": "2021-08-10" },
+    { "id": 223, "valueInDollars": 442101, "date": "2021-08-11" },
+    { "id": 224, "valueInDollars": 23020, "date": "2021-08-12" },
+    { "id": 225, "valueInDollars": 408352, "date": "2021-08-13" },
+    { "id": 226, "valueInDollars": 311967, "date": "2021-08-14" },
+    { "id": 227, "valueInDollars": 152573, "date": "2021-08-15" },
+    { "id": 228, "valueInDollars": 351643, "date": "2021-08-16" },
+    { "id": 229, "valueInDollars": 150048, "date": "2021-08-17" },
+    { "id": 230, "valueInDollars": 291670, "date": "2021-08-18" },
+    { "id": 231, "valueInDollars": 392318, "date": "2021-08-19" },
+    { "id": 232, "valueInDollars": 410320, "date": "2021-08-20" },
+    { "id": 233, "valueInDollars": 358912, "date": "2021-08-21" },
+    { "id": 234, "valueInDollars": 119000, "date": "2021-08-22" },
+    { "id": 235, "valueInDollars": 76686, "date": "2021-08-23" },
+    { "id": 236, "valueInDollars": 290222, "date": "2021-08-24" },
+    { "id": 237, "valueInDollars": 105828, "date": "2021-08-25" },
+    { "id": 238, "valueInDollars": 311315, "date": "2021-08-26" },
+    { "id": 239, "valueInDollars": 383858, "date": "2021-08-27" },
+    { "id": 240, "valueInDollars": 223109, "date": "2021-08-28" },
+    { "id": 241, "valueInDollars": 288104, "date": "2021-08-29" },
+    { "id": 242, "valueInDollars": 399105, "date": "2021-08-30" },
+    { "id": 243, "valueInDollars": 267239, "date": "2021-08-31" },
+    { "id": 244, "valueInDollars": 405629, "date": "2021-09-01" },
+    { "id": 245, "valueInDollars": 72700, "date": "2021-09-02" },
+    { "id": 246, "valueInDollars": 398868, "date": "2021-09-03" },
+    { "id": 247, "valueInDollars": 34687, "date": "2021-09-04" },
+    { "id": 248, "valueInDollars": 229554, "date": "2021-09-05" },
+    { "id": 249, "valueInDollars": 180867, "date": "2021-09-06" },
+    { "id": 250, "valueInDollars": 229305, "date": "2021-09-07" },
+    { "id": 251, "valueInDollars": 131721, "date": "2021-09-08" },
+    { "id": 252, "valueInDollars": 215052, "date": "2021-09-09" },
+    { "id": 253, "valueInDollars": 240240, "date": "2021-09-10" },
+    { "id": 254, "valueInDollars": 444286, "date": "2021-09-11" },
+    { "id": 255, "valueInDollars": 32747, "date": "2021-09-12" },
+    { "id": 256, "valueInDollars": 223687, "date": "2021-09-13" },
+    { "id": 257, "valueInDollars": 366985, "date": "2021-09-14" },
+    { "id": 258, "valueInDollars": 339817, "date": "2021-09-15" },
+    { "id": 259, "valueInDollars": 37530, "date": "2021-09-16" },
+    { "id": 260, "valueInDollars": 321466, "date": "2021-09-17" },
+    { "id": 261, "valueInDollars": 407594, "date": "2021-09-18" },
+    { "id": 262, "valueInDollars": 94836, "date": "2021-09-19" },
+    { "id": 263, "valueInDollars": 35409, "date": "2021-09-20" },
+    { "id": 264, "valueInDollars": 480879, "date": "2021-09-21" },
+    { "id": 265, "valueInDollars": 168628, "date": "2021-09-22" },
+    { "id": 266, "valueInDollars": 162708, "date": "2021-09-23" },
+    { "id": 267, "valueInDollars": 273649, "date": "2021-09-24" },
+    { "id": 268, "valueInDollars": 498429, "date": "2021-09-25" },
+    { "id": 269, "valueInDollars": 496673, "date": "2021-09-26" },
+    { "id": 270, "valueInDollars": 157188, "date": "2021-09-27" },
+    { "id": 271, "valueInDollars": 142102, "date": "2021-09-28" },
+    { "id": 272, "valueInDollars": 117656, "date": "2021-09-29" },
+    { "id": 273, "valueInDollars": 452972, "date": "2021-09-30" },
+    { "id": 274, "valueInDollars": 482836, "date": "2021-10-01" },
+    { "id": 275, "valueInDollars": 302063, "date": "2021-10-02" },
+    { "id": 276, "valueInDollars": 308498, "date": "2021-10-03" },
+    { "id": 277, "valueInDollars": 18160, "date": "2021-10-04" },
+    { "id": 278, "valueInDollars": 279546, "date": "2021-10-05" },
+    { "id": 279, "valueInDollars": 258475, "date": "2021-10-06" },
+    { "id": 280, "valueInDollars": 14803, "date": "2021-10-07" },
+    { "id": 281, "valueInDollars": 253275, "date": "2021-10-08" },
+    { "id": 282, "valueInDollars": 281350, "date": "2021-10-09" },
+    { "id": 283, "valueInDollars": 157898, "date": "2021-10-10" },
+    { "id": 284, "valueInDollars": 47240, "date": "2021-10-11" },
+    { "id": 285, "valueInDollars": 379298, "date": "2021-10-12" },
+    { "id": 286, "valueInDollars": 455777, "date": "2021-10-13" },
+    { "id": 287, "valueInDollars": 159968, "date": "2021-10-14" },
+    { "id": 288, "valueInDollars": 18077, "date": "2021-10-15" },
+    { "id": 289, "valueInDollars": 238902, "date": "2021-10-16" },
+    { "id": 290, "valueInDollars": 495504, "date": "2021-10-17" },
+    { "id": 291, "valueInDollars": 373890, "date": "2021-10-18" },
+    { "id": 292, "valueInDollars": 44122, "date": "2021-10-19" },
+    { "id": 293, "valueInDollars": 215493, "date": "2021-10-20" },
+    { "id": 294, "valueInDollars": 459300, "date": "2021-10-21" },
+    { "id": 295, "valueInDollars": 492476, "date": "2021-10-22" },
+    { "id": 296, "valueInDollars": 228686, "date": "2021-10-23" },
+    { "id": 297, "valueInDollars": 168418, "date": "2021-10-24" },
+    { "id": 298, "valueInDollars": 250245, "date": "2021-10-25" },
+    { "id": 299, "valueInDollars": 41004, "date": "2021-10-26" },
+    { "id": 300, "valueInDollars": 62585, "date": "2021-10-27" },
+    { "id": 301, "valueInDollars": 424468, "date": "2021-10-28" },
+    { "id": 302, "valueInDollars": 410671, "date": "2021-10-29" },
+    { "id": 303, "valueInDollars": 139406, "date": "2021-10-30" },
+    { "id": 304, "valueInDollars": 173390, "date": "2021-10-31" },
+    { "id": 305, "valueInDollars": 61461, "date": "2021-11-01" },
+    { "id": 306, "valueInDollars": 93959, "date": "2021-11-02" },
+    { "id": 307, "valueInDollars": 288974, "date": "2021-11-03" },
+    { "id": 308, "valueInDollars": 342593, "date": "2021-11-04" },
+    { "id": 309, "valueInDollars": 423242, "date": "2021-11-05" },
+    { "id": 310, "valueInDollars": 378142, "date": "2021-11-06" },
+    { "id": 311, "valueInDollars": 67438, "date": "2021-11-07" },
+    { "id": 312, "valueInDollars": 359314, "date": "2021-11-08" },
+    { "id": 313, "valueInDollars": 143567, "date": "2021-11-09" },
+    { "id": 314, "valueInDollars": 454213, "date": "2021-11-10" },
+    { "id": 315, "valueInDollars": 199620, "date": "2021-11-11" },
+    { "id": 316, "valueInDollars": 267532, "date": "2021-11-12" },
+    { "id": 317, "valueInDollars": 73964, "date": "2021-11-13" },
+    { "id": 318, "valueInDollars": 431399, "date": "2021-11-14" },
+    { "id": 319, "valueInDollars": 450409, "date": "2021-11-15" },
+    { "id": 320, "valueInDollars": 2747, "date": "2021-11-16" },
+    { "id": 321, "valueInDollars": 359594, "date": "2021-11-17" },
+    { "id": 322, "valueInDollars": 116501, "date": "2021-11-18" },
+    { "id": 323, "valueInDollars": 357464, "date": "2021-11-19" },
+    { "id": 324, "valueInDollars": 136382, "date": "2021-11-20" },
+    { "id": 325, "valueInDollars": 268178, "date": "2021-11-21" },
+    { "id": 326, "valueInDollars": 38885, "date": "2021-11-22" },
+    { "id": 327, "valueInDollars": 495603, "date": "2021-11-23" },
+    { "id": 328, "valueInDollars": 106323, "date": "2021-11-24" },
+    { "id": 329, "valueInDollars": 228899, "date": "2021-11-25" },
+    { "id": 330, "valueInDollars": 205402, "date": "2021-11-26" },
+    { "id": 331, "valueInDollars": 221648, "date": "2021-11-27" },
+    { "id": 332, "valueInDollars": 337973, "date": "2021-11-28" },
+    { "id": 333, "valueInDollars": 400916, "date": "2021-11-29" },
+    { "id": 334, "valueInDollars": 68222, "date": "2021-11-30" },
+    { "id": 335, "valueInDollars": 487191, "date": "2021-12-01" },
+    { "id": 336, "valueInDollars": 156323, "date": "2021-12-02" },
+    { "id": 337, "valueInDollars": 470472, "date": "2021-12-03" },
+    { "id": 338, "valueInDollars": 135131, "date": "2021-12-04" },
+    { "id": 339, "valueInDollars": 397984, "date": "2021-12-05" },
+    { "id": 340, "valueInDollars": 18072, "date": "2021-12-06" },
+    { "id": 341, "valueInDollars": 462416, "date": "2021-12-07" },
+    { "id": 342, "valueInDollars": 42979, "date": "2021-12-08" },
+    { "id": 343, "valueInDollars": 192626, "date": "2021-12-09" },
+    { "id": 344, "valueInDollars": 267929, "date": "2021-12-10" },
+    { "id": 345, "valueInDollars": 165573, "date": "2021-12-11" },
+    { "id": 346, "valueInDollars": 222179, "date": "2021-12-12" },
+    { "id": 347, "valueInDollars": 467355, "date": "2021-12-13" },
+    { "id": 348, "valueInDollars": 192397, "date": "2021-12-14" },
+    { "id": 349, "valueInDollars": 209373, "date": "2021-12-15" },
+    { "id": 350, "valueInDollars": 179114, "date": "2021-12-16" },
+    { "id": 351, "valueInDollars": 61544, "date": "2021-12-17" },
+    { "id": 352, "valueInDollars": 359999, "date": "2021-12-18" },
+    { "id": 353, "valueInDollars": 253284, "date": "2021-12-19" },
+    { "id": 354, "valueInDollars": 214493, "date": "2021-12-20" },
+    { "id": 355, "valueInDollars": 346641, "date": "2021-12-21" },
+    { "id": 356, "valueInDollars": 276463, "date": "2021-12-22" },
+    { "id": 357, "valueInDollars": 492435, "date": "2021-12-23" },
+    { "id": 358, "valueInDollars": 19522, "date": "2021-12-24" },
+    { "id": 359, "valueInDollars": 162999, "date": "2021-12-25" },
+    { "id": 360, "valueInDollars": 464282, "date": "2021-12-26" },
+    { "id": 361, "valueInDollars": 318109, "date": "2021-12-27" },
+    { "id": 362, "valueInDollars": 305945, "date": "2021-12-28" },
+    { "id": 363, "valueInDollars": 230662, "date": "2021-12-29" },
+    { "id": 364, "valueInDollars": 350938, "date": "2021-12-30" },
+    { "id": 365, "valueInDollars": 258065, "date": "2021-12-31" }
+  ],
+  "salesByRegion": [
+    {
+      "id": 1,
+      "valueInDollars": 4476,
+      "country": "United States",
+      "region": "Texas"
+    },
+    {
+      "id": 2,
+      "valueInDollars": 41334,
+      "country": "United States",
+      "region": "District of Columbia"
+    },
+    {
+      "id": 3,
+      "valueInDollars": 45234,
+      "country": "United States",
+      "region": "Virginia"
+    },
+    {
+      "id": 4,
+      "valueInDollars": 15676,
+      "country": "United States",
+      "region": "West Virginia"
+    },
+    {
+      "id": 5,
+      "valueInDollars": 13844,
+      "country": "United States",
+      "region": "Illinois"
+    },
+    {
+      "id": 6,
+      "valueInDollars": 12438,
+      "country": "United States",
+      "region": "Florida"
+    },
+    {
+      "id": 7,
+      "valueInDollars": 2768,
+      "country": "United States",
+      "region": "California"
+    },
+    {
+      "id": 8,
+      "valueInDollars": 24107,
+      "country": "United States",
+      "region": "New York"
+    },
+    {
+      "id": 9,
+      "valueInDollars": 15866,
+      "country": "United States",
+      "region": "District of Columbia"
+    },
+    {
+      "id": 10,
+      "valueInDollars": 24332,
+      "country": "United States",
+      "region": "Texas"
+    },
+    {
+      "id": 11,
+      "valueInDollars": 27927,
+      "country": "United States",
+      "region": "Florida"
+    },
+    {
+      "id": 12,
+      "valueInDollars": 49447,
+      "country": "United States",
+      "region": "California"
+    },
+    {
+      "id": 13,
+      "valueInDollars": 274,
+      "country": "United States",
+      "region": "Colorado"
+    },
+    {
+      "id": 14,
+      "valueInDollars": 9979,
+      "country": "United States",
+      "region": "California"
+    },
+    {
+      "id": 15,
+      "valueInDollars": 31381,
+      "country": "United States",
+      "region": "Ohio"
+    },
+    {
+      "id": 16,
+      "valueInDollars": 30043,
+      "country": "United States",
+      "region": "Maryland"
+    },
+    {
+      "id": 17,
+      "valueInDollars": 944,
+      "country": "United States",
+      "region": "Connecticut"
+    },
+    {
+      "id": 18,
+      "valueInDollars": 37232,
+      "country": "United States",
+      "region": "North Carolina"
+    },
+    {
+      "id": 19,
+      "valueInDollars": 24104,
+      "country": "United States",
+      "region": "Minnesota"
+    },
+    {
+      "id": 20,
+      "valueInDollars": 18664,
+      "country": "United States",
+      "region": "New Hampshire"
+    },
+    {
+      "id": 1001,
+      "valueInDollars": 32413,
+      "country": "Poland",
+      "region": "Greater Poland"
+    },
+    {
+      "id": 1002,
+      "valueInDollars": 15006,
+      "country": "Poland",
+      "region": "Kuyavia-Pomerania"
+    },
+    {
+      "id": 1003,
+      "valueInDollars": 48486,
+      "country": "Poland",
+      "region": "Lesser Poland"
+    },
+    {
+      "id": 1004,
+      "valueInDollars": 11993,
+      "country": "Poland",
+      "region": "Łódź"
+    },
+    {
+      "id": 1005,
+      "valueInDollars": 11708,
+      "country": "Poland",
+      "region": "Lower Silesia"
+    },
+    {
+      "id": 1006,
+      "valueInDollars": 8269,
+      "country": "Poland",
+      "region": "Lublin"
+    },
+    {
+      "id": 1007,
+      "valueInDollars": 23698,
+      "country": "Poland",
+      "region": "Lubusz"
+    },
+    {
+      "id": 1008,
+      "valueInDollars": 39628,
+      "country": "Poland",
+      "region": "Masovia"
+    },
+    {
+      "id": 1009,
+      "valueInDollars": 9022,
+      "country": "Poland",
+      "region": "Opole"
+    },
+    {
+      "id": 1010,
+      "valueInDollars": 5664,
+      "country": "Poland",
+      "region": "Podlaskie"
+    },
+    {
+      "id": 1011,
+      "valueInDollars": 35681,
+      "country": "Poland",
+      "region": "Pomerania"
+    },
+    {
+      "id": 1012,
+      "valueInDollars": 37282,
+      "country": "Poland",
+      "region": "Silesia"
+    },
+    {
+      "id": 1013,
+      "valueInDollars": 2639,
+      "country": "Poland",
+      "region": "Subcarpathia"
+    },
+    {
+      "id": 1014,
+      "valueInDollars": 28499,
+      "country": "Poland",
+      "region": "Holy Cross Province"
+    },
+    {
+      "id": 1015,
+      "valueInDollars": 45225,
+      "country": "Poland",
+      "region": "Warmia-Masuria"
+    },
+    {
+      "id": 1016,
+      "valueInDollars": 37771,
+      "country": "Poland",
+      "region": "West Pomerania"
+    },
+    {
+      "id": 2001,
+      "valueInDollars": 10502,
+      "country": "Germany",
+      "region": "Baden-Württemberg"
+    },
+    {
+      "id": 2002,
+      "valueInDollars": 41674,
+      "country": "Germany",
+      "region": "Berlin"
+    },
+    {
+      "id": 2003,
+      "valueInDollars": 41943,
+      "country": "Germany",
+      "region": "Brandenburg"
+    },
+    {
+      "id": 2004,
+      "valueInDollars": 12662,
+      "country": "Germany",
+      "region": "Bremen"
+    },
+    {
+      "id": 2005,
+      "valueInDollars": 2684,
+      "country": "Germany",
+      "region": "Hamburg"
+    },
+    {
+      "id": 2006,
+      "valueInDollars": 19564,
+      "country": "Germany",
+      "region": "Hesse"
+    },
+    {
+      "id": 2007,
+      "valueInDollars": 14682,
+      "country": "Germany",
+      "region": "Lower Saxony"
+    },
+    {
+      "id": 2008,
+      "valueInDollars": 2851,
+      "country": "Germany",
+      "region": "Mecklenburg-Vorpommern"
+    },
+    {
+      "id": 2009,
+      "valueInDollars": 15407,
+      "country": "Germany",
+      "region": "North Rhine-Westphalia"
+    },
+    {
+      "id": 2010,
+      "valueInDollars": 39060,
+      "country": "Germany",
+      "region": "Rhineland-Palatinate"
+    },
+    {
+      "id": 2011,
+      "valueInDollars": 34802,
+      "country": "Germany",
+      "region": "Saarland"
+    },
+    {
+      "id": 2012,
+      "valueInDollars": 22014,
+      "country": "Germany",
+      "region": "Saxony"
+    },
+    {
+      "id": 2013,
+      "valueInDollars": 316,
+      "country": "Germany",
+      "region": "Saxony-Anhalt"
+    },
+    {
+      "id": 2014,
+      "valueInDollars": 17614,
+      "country": "Germany",
+      "region": "Schleswig-Holstein"
+    },
+    {
+      "id": 2015,
+      "valueInDollars": 43290,
+      "country": "Germany",
+      "region": "Thuringia"
+    },
+    {
+      "id": 3001,
+      "valueInDollars": 3437,
+      "country": "Brazil",
+      "region": "Amazonas"
+    },
+    {
+      "id": 3002,
+      "valueInDollars": 46742,
+      "country": "Brazil",
+      "region": "Pará"
+    },
+    {
+      "id": 3003,
+      "valueInDollars": 36865,
+      "country": "Brazil",
+      "region": "Mato Grosso"
+    },
+    {
+      "id": 3004,
+      "valueInDollars": 40826,
+      "country": "Brazil",
+      "region": "Minas Gerais"
+    },
+    {
+      "id": 3005,
+      "valueInDollars": 10555,
+      "country": "Brazil",
+      "region": "Bahia"
+    },
+    {
+      "id": 3006,
+      "valueInDollars": 1300,
+      "country": "Brazil",
+      "region": "Mato Grosso do Sul"
+    },
+    {
+      "id": 3007,
+      "valueInDollars": 49434,
+      "country": "Brazil",
+      "region": "Goiás"
+    },
+    {
+      "id": 3008,
+      "valueInDollars": 35100,
+      "country": "Brazil",
+      "region": "Maranhão"
+    },
+    {
+      "id": 3009,
+      "valueInDollars": 47428,
+      "country": "Brazil",
+      "region": "Rio Grande do Sul"
+    },
+    {
+      "id": 3010,
+      "valueInDollars": 45294,
+      "country": "Brazil",
+      "region": "Tocantins"
+    },
+    {
+      "id": 3011,
+      "valueInDollars": 29040,
+      "country": "Brazil",
+      "region": "Piauí"
+    },
+    {
+      "id": 3012,
+      "valueInDollars": 37692,
+      "country": "Brazil",
+      "region": "São Paulo"
+    },
+    {
+      "id": 3013,
+      "valueInDollars": 19770,
+      "country": "Brazil",
+      "region": "Rondônia"
+    },
+    {
+      "id": 3014,
+      "valueInDollars": 40531,
+      "country": "Brazil",
+      "region": "Roraima"
+    },
+    {
+      "id": 3015,
+      "valueInDollars": 11143,
+      "country": "Brazil",
+      "region": "Paraná"
+    },
+    {
+      "id": 3016,
+      "valueInDollars": 45148,
+      "country": "Brazil",
+      "region": "Acre"
+    },
+    {
+      "id": 3017,
+      "valueInDollars": 30478,
+      "country": "Brazil",
+      "region": "Ceará"
+    },
+    {
+      "id": 3018,
+      "valueInDollars": 45707,
+      "country": "Brazil",
+      "region": "Amapá"
+    },
+    {
+      "id": 3019,
+      "valueInDollars": 17172,
+      "country": "Brazil",
+      "region": "Pernambuco"
+    },
+    {
+      "id": 3020,
+      "valueInDollars": 40065,
+      "country": "Brazil",
+      "region": "Santa Catarina"
+    },
+    {
+      "id": 3021,
+      "valueInDollars": 42686,
+      "country": "Brazil",
+      "region": "Paraíba"
+    },
+    {
+      "id": 3022,
+      "valueInDollars": 23271,
+      "country": "Brazil",
+      "region": "Rio Grande do Norte"
+    },
+    {
+      "id": 3023,
+      "valueInDollars": 9561,
+      "country": "Brazil",
+      "region": "Espírito Santo"
+    },
+    {
+      "id": 3024,
+      "valueInDollars": 32097,
+      "country": "Brazil",
+      "region": "Rio de Janeiro"
+    },
+    {
+      "id": 3025,
+      "valueInDollars": 31808,
+      "country": "Brazil",
+      "region": "Alagoas"
+    },
+    {
+      "id": 3026,
+      "valueInDollars": 39892,
+      "country": "Brazil",
+      "region": "Sergipe"
+    },
+    {
+      "id": 3027,
+      "valueInDollars": 25880,
+      "country": "Brazil",
+      "region": "Distrito Federal"
+    },
+    {
+      "id": 4001,
+      "valueInDollars": 32963,
+      "country": "Ukraine",
+      "region": "Cherkasy"
+    },
+    {
+      "id": 4002,
+      "valueInDollars": 10831,
+      "country": "Ukraine",
+      "region": "Chernihiv"
+    },
+    {
+      "id": 4003,
+      "valueInDollars": 26931,
+      "country": "Ukraine",
+      "region": "Chernivtsi"
+    },
+    {
+      "id": 4004,
+      "valueInDollars": 40787,
+      "country": "Ukraine",
+      "region": "Dnipropetrovsk"
+    },
+    {
+      "id": 4005,
+      "valueInDollars": 25022,
+      "country": "Ukraine",
+      "region": "Donetsk"
+    },
+    {
+      "id": 4006,
+      "valueInDollars": 38547,
+      "country": "Ukraine",
+      "region": "Ivano-Frankivsk"
+    },
+    {
+      "id": 4007,
+      "valueInDollars": 8825,
+      "country": "Ukraine",
+      "region": "Kharkiv"
+    },
+    {
+      "id": 4008,
+      "valueInDollars": 27674,
+      "country": "Ukraine",
+      "region": "Kherson"
+    },
+    {
+      "id": 4009,
+      "valueInDollars": 21486,
+      "country": "Ukraine",
+      "region": "Khmelnytskyi"
+    },
+    {
+      "id": 4010,
+      "valueInDollars": 32509,
+      "country": "Ukraine",
+      "region": "Kiev"
+    },
+    {
+      "id": 4011,
+      "valueInDollars": 22715,
+      "country": "Ukraine",
+      "region": "Kirovohrad"
+    },
+    {
+      "id": 4012,
+      "valueInDollars": 12257,
+      "country": "Ukraine",
+      "region": "Luhansk"
+    },
+    {
+      "id": 4013,
+      "valueInDollars": 26214,
+      "country": "Ukraine",
+      "region": "Lviv"
+    },
+    {
+      "id": 4014,
+      "valueInDollars": 9377,
+      "country": "Ukraine",
+      "region": "Mykolaiv"
+    },
+    {
+      "id": 4015,
+      "valueInDollars": 42285,
+      "country": "Ukraine",
+      "region": "Odessa"
+    },
+    {
+      "id": 4016,
+      "valueInDollars": 36197,
+      "country": "Ukraine",
+      "region": "Poltava"
+    },
+    {
+      "id": 4017,
+      "valueInDollars": 4977,
+      "country": "Ukraine",
+      "region": "Rivne"
+    },
+    {
+      "id": 4018,
+      "valueInDollars": 24939,
+      "country": "Ukraine",
+      "region": "Sumy"
+    },
+    {
+      "id": 4019,
+      "valueInDollars": 16127,
+      "country": "Ukraine",
+      "region": "Ternopil"
+    },
+    {
+      "id": 4020,
+      "valueInDollars": 45113,
+      "country": "Ukraine",
+      "region": "Vinnytsia"
+    },
+    {
+      "id": 4021,
+      "valueInDollars": 36029,
+      "country": "Ukraine",
+      "region": "Volyn"
+    },
+    {
+      "id": 4022,
+      "valueInDollars": 609,
+      "country": "Ukraine",
+      "region": "Zakarpattia"
+    },
+    {
+      "id": 4023,
+      "valueInDollars": 28688,
+      "country": "Ukraine",
+      "region": "Zaporizhia"
+    },
+    {
+      "id": 4024,
+      "valueInDollars": 37431,
+      "country": "Ukraine",
+      "region": "Zhytomyr"
+    }
+  ],
+  "salesByCompanyProduct": [
+    {
+      "id": 1,
+      "valueInDollars": 1444,
+      "productType": "Freezer",
+      "company": "LG"
+    },
+    {
+      "id": 2,
+      "valueInDollars": 44800,
+      "productType": "Fridge",
+      "company": "LG"
+    },
+    {
+      "id": 3,
+      "valueInDollars": 23966,
+      "productType": "Washing machine",
+      "company": "LG"
+    },
+    {
+      "id": 4,
+      "valueInDollars": 36763,
+      "productType": "TV",
+      "company": "LG"
+    },
+    {
+      "id": 5,
+      "valueInDollars": 38382,
+      "productType": "Microwave",
+      "company": "LG"
+    },
+    {
+      "id": 6,
+      "valueInDollars": 3101,
+      "productType": "Freezer",
+      "company": "Samsung"
+    },
+    {
+      "id": 7,
+      "valueInDollars": 21219,
+      "productType": "Fridge",
+      "company": "Samsung"
+    },
+    {
+      "id": 8,
+      "valueInDollars": 6712,
+      "productType": "Washing machine",
+      "company": "Samsung"
+    },
+    {
+      "id": 9,
+      "valueInDollars": 38647,
+      "productType": "TV",
+      "company": "Samsung"
+    },
+    {
+      "id": 10,
+      "valueInDollars": 47795,
+      "productType": "Microwave",
+      "company": "Samsung"
+    },
+    {
+      "id": 11,
+      "valueInDollars": 47096,
+      "productType": "Freezer",
+      "company": "Sharp"
+    },
+    {
+      "id": 12,
+      "valueInDollars": 31479,
+      "productType": "Fridge",
+      "company": "Sharp"
+    },
+    {
+      "id": 13,
+      "valueInDollars": 35502,
+      "productType": "Washing machine",
+      "company": "Sharp"
+    },
+    {
+      "id": 14,
+      "valueInDollars": 29353,
+      "productType": "TV",
+      "company": "Sharp"
+    },
+    {
+      "id": 15,
+      "valueInDollars": 24200,
+      "productType": "Microwave",
+      "company": "Sharp"
+    },
+    {
+      "id": 16,
+      "valueInDollars": 42086,
+      "productType": "Freezer",
+      "company": "Toshiba"
+    },
+    {
+      "id": 17,
+      "valueInDollars": 14889,
+      "productType": "Fridge",
+      "company": "Toshiba"
+    },
+    {
+      "id": 18,
+      "valueInDollars": 11506,
+      "productType": "Washing machine",
+      "company": "Toshiba"
+    },
+    {
+      "id": 19,
+      "valueInDollars": 12247,
+      "productType": "TV",
+      "company": "Toshiba"
+    },
+    {
+      "id": 20,
+      "valueInDollars": 30387,
+      "productType": "Microwave",
+      "company": "Toshiba"
+    },
+    {
+      "id": 21,
+      "valueInDollars": 18373,
+      "productType": "Freezer",
+      "company": "Mastercook"
+    },
+    {
+      "id": 22,
+      "valueInDollars": 43129,
+      "productType": "Fridge",
+      "company": "Mastercook"
+    },
+    {
+      "id": 23,
+      "valueInDollars": 48351,
+      "productType": "Washing machine",
+      "company": "Mastercook"
+    },
+    {
+      "id": 24,
+      "valueInDollars": 16936,
+      "productType": "TV",
+      "company": "Mastercook"
+    },
+    {
+      "id": 25,
+      "valueInDollars": 17883,
+      "productType": "Microwave",
+      "company": "Mastercook"
+    }
+  ]
+}
