@@ -33,6 +33,7 @@ function PieChart() {
   const chartRef = useRef(null);
   const [apiData, setApiData] = useState(null)
   const [chartData, setchartData] = useState(data)
+  const [regionChartData, setRegionChartData] = useState(data)
 
   const [selectedCountry, setSelectedCountry] = useState(null)
 
@@ -58,7 +59,14 @@ function PieChart() {
   useEffect(() => {
     if (selectedCountry !== null) {
       const regionsData = apiData.filter((data) => data.country === selectedCountry)
-      console.log(regionsData);
+      const regionLabels = regionsData.map((data) => data.region)
+      const regionValues = regionsData.map((data) => data.valueInDollars)
+
+      setRegionChartData({
+        ...data,
+        labels: regionLabels,
+        datasets: [{ ...data.datasets[0], data: regionValues, backgroundColor: getChartColors(regionLabels.length) }]
+      })
     }
   }, [selectedCountry])
 
@@ -78,7 +86,7 @@ function PieChart() {
         <div>
           <Pie
               ref={chartRef}
-              data={chartData}
+              data={selectedCountry ? regionChartData : chartData}
               onClick={(event) => {
                 const selectedElement = getElementAtEvent(chartRef.current, event);
 
