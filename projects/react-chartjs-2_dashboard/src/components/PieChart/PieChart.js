@@ -11,8 +11,8 @@ export const data = {
   labels: [],
   datasets: [
     {
-      label: "",
-      data: [],
+      label: "# of Votes",
+      data: [12, 19, 3, 5, 2, 3],
       backgroundColor: [
         "rgba(255, 99, 132, 0.2)",
         "rgba(54, 162, 235, 0.2)",
@@ -48,8 +48,9 @@ function PieChart() {
   useEffect(() => {
     if (apiData !== null) {
       const countries = uniq(apiData.map((data) => data.country))
+      const countryData = countries.map((country) => apiData.filter((data) => data.country === country).length)
 
-      setchartData({ ...data, labels: countries })
+      setchartData({ ...data, labels: countries, datasets: [{ ...data.datasets[0], data: countryData }] })
     }
   }, [apiData])
 
@@ -58,7 +59,7 @@ function PieChart() {
   }
 
   return (
-      <div>
+      <div style={{ padding: '24px' }}>
         <Pie
             ref={chartRef}
             data={chartData}
