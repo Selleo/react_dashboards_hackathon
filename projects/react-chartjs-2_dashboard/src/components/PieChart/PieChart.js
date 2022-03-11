@@ -1,6 +1,8 @@
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie, getElementAtEvent } from "react-chartjs-2";
 import { useEffect, useRef, useState } from 'react'
+import { uniq } from 'lodash'
+
 import client from '../../axios'
 
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -35,12 +37,21 @@ export const data = {
 function PieChart() {
   const chartRef = useRef(null);
   const [apiData, setApiData] = useState(null)
+  const [chartData, setchartData] = useState(data)
 
   useEffect(() => {
     client.get('/salesByRegion').then((response) => {
       setApiData(response.data)
     })
   }, [])
+
+  useEffect(() => {
+    if (apiData !== null) {
+      const countries = uniq(apiData.map((data) => data.country))
+
+      setchartData({ ...data, labels: countries })
+    }
+  }, [apiData])
 
   if (apiData === null) {
     return <div>Loading...</div>
@@ -50,7 +61,7 @@ function PieChart() {
       <div>
         <Pie
             ref={chartRef}
-            data={data}
+            data={chartData}
             onClick={(event) => {
               const selectedElement = getElementAtEvent(chartRef.current, event);
               console.log(selectedElement)
