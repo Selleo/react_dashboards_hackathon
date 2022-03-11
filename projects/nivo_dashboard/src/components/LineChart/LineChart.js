@@ -95,10 +95,10 @@ function LineChart() {
     <>
       <h3 className="text-lg">Sales in {getMonthName(selectedMonth)}</h3>
 
-      <div style={{ height: "200px", width: "100%" }}>
+      <div style={{ height: "230px", width: "100%" }}>
         <ResponsiveLineCanvas
           data={data[selectedMonth]}
-          margin={{ top: 5, right: 30, bottom: 20, left: 80 }}
+          margin={{ top: 5, right: 30, bottom: 60, left: 80 }}
           yFormat={number => formatCurrency(number)}
           axisLeft={{
             format: number => formatCurrency(number),
@@ -112,7 +112,8 @@ function LineChart() {
               `${selectedMonth}-20`,
               `${selectedMonth}-25`,
               `${selectedMonth}-31`,
-            ]
+            ],
+            tickRotation: -45,
           }}
         />
       </div>
