@@ -103,7 +103,7 @@ function BarChart() {
     <>
       <div className="flex flex-auto justify-center">
         <button
-          className={`border p-2 m-2 ${tab === 'first' ? enabledClasses : disabledClasses}`}
+          className={`border p-2 m-2 ${tab === 'first' ? disabledClasses : enabledClasses}`}
           onClick={() => setTab('first')}
           disabled={tab === 'first'}
         >
@@ -111,7 +111,7 @@ function BarChart() {
         </button>
 
         <button
-          className={`border p-2 m-2 ${tab === 'second' ? enabledClasses : disabledClasses}`}
+          className={`border p-2 m-2 ${tab === 'second' ? disabledClasses : enabledClasses}`}
           onClick={() => setTab('second')}
           disabled={tab === 'second'}
         >
@@ -119,7 +119,7 @@ function BarChart() {
         </button>
 
         <button
-          className={`border p-2 m-2 ${tab === 'third' ? enabledClasses : disabledClasses}`}
+          className={`border p-2 m-2 ${tab === 'third' ? disabledClasses : enabledClasses}`}
           onClick={() => setTab('third')}
           disabled={tab === 'third'}
         >
