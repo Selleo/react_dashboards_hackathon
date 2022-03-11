@@ -99,7 +99,7 @@ function LineChart() {
 
       <div style={
         {
-          height: '700px',
+          height: '350px',
           width: '100%'
         }
       }>
@@ -124,8 +124,21 @@ function LineChart() {
         />
       </div>
 
-      <button className="border p-2 m-2 bg-slate-700 text-slate-100" onClick={handlePreviousMonth}>Previous month</button>
-      <button className="border p-2 m-2 bg-slate-700 text-slate-100" onClick={handleNextMonth}>Next month</button>
+      <div class="flex flex-auto justify-center">
+        <button
+          className="border p-2 m-2 bg-slate-700 text-slate-100"
+          onClick={handlePreviousMonth}
+        >
+          Previous month
+        </button>
+
+        <button
+          className="border p-2 m-2 bg-slate-700 text-slate-100"
+          onClick={handleNextMonth}
+        >
+          Next month
+        </button>
+      </div>
     </>
   )
 }
