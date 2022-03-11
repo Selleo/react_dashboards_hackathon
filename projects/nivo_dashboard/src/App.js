@@ -3,11 +3,14 @@ import cn from "classnames";
 import LineChart from "./components/LineChart";
 import BarChart from "./components/BarChart";
 import PieChart from "./components/PieChart";
+import { useRef } from "react";
 
 const cardStyles =
   "h-full rounded-md p-2 border border-slate-300 border-solid shadow-md shadow-slate-500 bg-slate-100";
 
 function App() {
+  const pieContainerRef = useRef();
+
   return (
     <div className="bg-slate-200 h-screen">
       <div className="container mx-auto py-6 grid grid-cols-12 gap-6 h-full">
@@ -27,8 +30,9 @@ function App() {
             "col-span-10 col-start-2 md:col-start-7 md:col-span-6",
             cardStyles
           )}
+          ref={pieContainerRef}
         >
-          <PieChart />
+          <PieChart containerRef={pieContainerRef} />
         </div>
       </div>
     </div>
