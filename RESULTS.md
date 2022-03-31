@@ -30,3 +30,20 @@ Team opinion:
 
 - Disadvantages 
   - Small number of chart types
+
+### [Victory](https://formidable.com/open-source/victory/)
+
+Result:
+![example](./projects/victory_dashboard/victory-1.png)
+![example](./projects/victory_dashboard/victory-2.png)
+
+Team opinion:
+
+- Advantages
+  - it works :)
+
+- Disadvantages
+  - small number of chart types
+  - old documentation, with class components
+  - poorly described functionalities
+  - things that should be easy aren't (like changing data after click)
