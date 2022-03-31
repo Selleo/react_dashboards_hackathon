@@ -13,3 +13,20 @@ Team opinion:
 - **Features that might be hard to implement:**
   - sizing of the chart can be defined only in absolute pixel values making it hard to adjust based on screen size etc.
   - we haven't found support for custom animations
+
+### [React chartjs 2](https://react-chartjs-2.js.org/)
+
+Result:
+![example](./projects/react-chartjs-2_dashboard/react-chartjs2-2.png)
+![example](./projects/react-chartjs-2_dashboard/react-chartjs2-1.png)
+
+Team opinion:
+
+- Advantages 
+  - Readable documentation with examples 
+  - Easy to use 
+  - Built-in animations and functions 
+  - Many customisation option (with plugins)
+
+- Disadvantages 
+  - Small number of chart types
