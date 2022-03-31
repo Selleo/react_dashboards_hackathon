@@ -20,15 +20,15 @@
 ## Features to implement
 
 1. Line chart - use data from `/salesByTime` endpoint
-   1. Display the data for single month ![example](./Example%20line%20chart.png)
+   1. Display the data for single month ![example](./example_chart_images/Example%20line%20chart.png)
    2. Add "pagination" - the user should be able to display the data for next and previous months
 2. Bar chart - use data from `/salesByCompanyProduct`
-   1. Display bars with total sale value of given product (without division by company) ![example](./Example%20bar%20chart%20total.png)
-   2. Display bars with total sale value of given product (stacked per company) ![example](./Example%20bar%20chart%20stacked%20series.png)
-   3. Display bars with product sale value (each company should be in separate data series) ![example](./Example%20bar%20chart%20separate%20series.png)
+   1. Display bars with total sale value of given product (without division by company) ![example](./example_chart_images/Example%20bar%20chart%20total.png)
+   2. Display bars with total sale value of given product (stacked per company) ![example](./example_chart_images/Example%20bar%20chart%20stacked%20series.png)
+   3. Display bars with product sale value (each company should be in separate data series) ![example](./example_chart_images/Example%20bar%20chart%20separate%20series.png)
 3. Pie chart - use data from `/salesByRegion`
-   1. Display sale data in the circle divided per country ![example](./Example%20pie%20chart.png)
-   2. After clicking the country, display sale data for this country divided per country region (add some nice animation if possible) ![example](./Example%20pie%20chart%20per%20region.png)
+   1. Display sale data in the circle divided per country ![example](./example_chart_images/Example%20pie%20chart.png)
+   2. After clicking the country, display sale data for this country divided per country region (add some nice animation if possible) ![example](./example_chart_images/Example%20pie%20chart%20per%20region.png)
 4. ??? If you still have time, add some additional feature to the already existing charts.
 
 ## Additional info
