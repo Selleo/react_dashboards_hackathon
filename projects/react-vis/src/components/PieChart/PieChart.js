@@ -4,9 +4,16 @@ import {
   RadialChart,
 } from 'react-vis';
 
+import './styles.css'
 import axios from '../../axios';
 
 const HALF_PI = Math.PI / 2;
+const COLORS = [
+  '#f44336',
+  '#9c27b0',
+  '#2196f3',
+  '#4caf50',
+];
 const EXTENDED_DISCRETE_COLOR_RANGE = [
   '#19CDD7',
   '#DDB27C',
@@ -30,6 +37,10 @@ const EXTENDED_DISCRETE_COLOR_RANGE = [
   '#89DAC1',
   '#B3AD9E'
 ];
+
+const getColor = (index) => {
+  return COLORS[COLORS.length];
+};
 
 function PieChart() {
   const [activeCountryName, setActiveCountryName] = useState(null);
@@ -67,13 +78,14 @@ function PieChart() {
     if (activeCountryName) {
       const countryData = byCountry[activeCountryName];
       const data = countryData.map((entry, index) => {
-        const color =  EXTENDED_DISCRETE_COLOR_RANGE[index];
+        const color =  getColor(index);
         const percentage = entry.valueInDollars / countryData.sum;
 
         return {
           label: entry.region,
           subLabel: (percentage * 100).toFixed(2) + '%',
           angle: HALF_PI * percentage,
+          // color: color,
         };
       });
 
@@ -83,14 +95,14 @@ function PieChart() {
     let prevAngle = 0;
     const data = Object.entries(byCountry).map((data, index) => {
       const [countryName, entries] = data;
-      const color =  EXTENDED_DISCRETE_COLOR_RANGE[index];
+      const color =  getColor(index);
       const percentage = entries.sum / overallSum;
       const result = {
         label: countryName,
         subLabel: (percentage * 100).toFixed(2) + '%',
         angle: HALF_PI * percentage,
         radius: 100,
-        color: color,
+        // color: color,
       };
       prevAngle = result.angle;
       return result;
@@ -125,7 +137,6 @@ function PieChart() {
       showLabels={true}
       onValueClick={onValueClick}
       labelsStyle={{
-        background: 'red',
         fontSize: 15,
         fontWeight: 'bold'
       }}
