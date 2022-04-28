@@ -2,6 +2,8 @@
 
 [DOC](https://docs.google.com/document/d/1lpqY7UEP8it-DdVUK9dEUXmlE4_9dyZMLmAs749eXeQ/edit#) with information about the hackathon.
 
+**Check the [RESULTS](https://github.com/Selleo/react_dashboards_hackathon/blob/master/RESULTS.md) of the hackathon**
+
 ## Setup
 
 - Create a branch `git checkout -b [yourLibrary]_dashboard`
