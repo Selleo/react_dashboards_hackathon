@@ -47,3 +47,20 @@ Team opinion:
   - old documentation, with class components
   - poorly described functionalities
   - things that should be easy aren't (like changing data after click)
+
+### [React-vis](https://uber.github.io/react-vis/)
+
+Result:
+![example](./projects/react-vis/vis-1.png)
+![example](./projects/react-vis/vis-2.png)
+
+Team opinion:
+
+- Advantages
+  - it works :)
+
+- Disadvantages
+  - Documentation is not really well-written, lack of complex examples, a bit messy.
+  - Quite hard to use compared to power it offers, creating even simple charts requires lots of work and going through several documentation pages.
+  - Barely customisable. Lack of commonly used features e.g. changing styles on hovered dataset or chart part.
+  - Decorative elements like legends, infos, fancy labels.
