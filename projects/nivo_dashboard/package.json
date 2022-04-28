@@ -18,8 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "db:setup": "cp db.initial.json db.json",
-    "server:start": "json-server --watch db.json -p 3001 -d 800",
+    "db:setup": "cp ../../db.initial.json ../../db.json",
+    "server:start": "json-server --watch ../../db.json -p 3001 -d 800",
     "build": "react-scripts build"
   },
   "eslintConfig": {
